@@ -1,0 +1,22 @@
+[project]
+name = "launchbox-plugin"
+version = "1.0.0"
+authors = [
+  { name="Jet Propulsion Laboratory", email="dl-webdev@jpl.nasa.gov" },
+]
+description = "A python helper class for integrating Launchbox plugins."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/nasa-jpl/launchbox-plugin"
+"Bug Tracker" = "https://github.com/nasa-jpl/launchbox-plugin/issues"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
